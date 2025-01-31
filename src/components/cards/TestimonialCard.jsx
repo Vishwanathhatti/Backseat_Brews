@@ -3,7 +3,7 @@ import React from 'react'
 
 const TestimonialCard = () => {
   return (
-    <div className='w-full md:w-[30%] bg-white p-5 shadow-md rounded-2xl my-10' >
+    <div className='w-full md:w-[30%] bg-white px-10 md:px-5 p-5 shadow-md rounded-2xl my-10' >
         <div className='w-full flex justify-between items-center' >
             <img className='rounded-full  w-20' src="../src/assets/testimonial.jpg" />
             <Quote color='#5EC8A5' size={40} />

@@ -6,7 +6,7 @@ const HomeHeroSection = () => {
       
       <div className="bg-gradient-to-b from-[#CCFBA8] to-[#6ACDA5] rounded-l-lg max-w-7xl  mx-auto flex flex-wrap items-center p-4 md:p-0 ">
         {/* Image Section */}
-        <div className=" flex justify-center items-center w-full md:w-[40%] max-h-[600px] overflow-hidden rounded-l-lg">
+        <div className=" flex justify-center items-center w-full md:w-[40%] max-h-[600px] overflow-hidden rounded-lg md:rounded-l-lg">
           <img
             className="object-contain w-full "
             src="../src/assets/balls.jpg"

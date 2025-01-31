@@ -6,6 +6,7 @@ import { Button } from '../ui/button'
 import HomeHeroSection from '../HomeHeroSection'
 import SnookerInfo from '../SnookerInfo'
 import Testimonials from '../Testimonials'
+import { Link } from 'react-router-dom'
 
 const drinks =[
     {
@@ -55,7 +56,7 @@ const Home = () => {
             <Menu title="Drinks" menu={drinks} color="#E3FFE9" />
         </div>
         <div className='w-full flex justify-center items-center my-3'>
-        <Button className="bg-amber-400 hover:bg-green-300 text-black" > View More </Button>    
+        <Link to='/menu'><Button className="bg-amber-400 hover:bg-green-300 text-black" > View More </Button></Link>    
         </div>    
         </div>
         <HomeHeroSection/>

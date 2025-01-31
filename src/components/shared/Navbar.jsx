@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='bg-[#338B63] border-b-2' >
         <div className='flex justify-between items-center max-w-7xl mx-auto px-5 h-20'>
-            <h1 className='font-semibold text-3xl text-white'>Backset Brews</h1>
+            <h1 className='font-semibold text-3xl text-white'>Backseat Brews</h1>
             <ul className='flex gap-10 text-white font-semibold text-lg items-center mobile-view'>
                 <li>Home</li>
                 <li>About</li>
